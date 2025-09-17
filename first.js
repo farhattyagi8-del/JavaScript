@@ -328,7 +328,7 @@
 
 //// let's pratice question...
 
-// let FullName = prompt("Enter your Full Name Without Space");
-// let userName = "@" + FullName + FullName.length;
-// console.log(userName);
+ let FullName = prompt("Enter your Full Name Without Space");
+ let userName = "@" + FullName + FullName.length;
+console.log(userName);
 
