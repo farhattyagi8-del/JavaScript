@@ -201,8 +201,134 @@
 
 ///////////// Loops in js.
 
+// print "for loop".
 
-for (let count=1; count<=5; count = count++){
-    console.log("farhat developer");
+//for (let i=1; i<=10; i++){
+ // console.log(" jeon farhat ");}
     
-}
+//     console.log(i);
+
+    
+// }
+
+//calculate some of 1 to n 
+// let sum  = 0;
+// let n = 100;
+// for ( let i=1; i<=n; i++){
+//     sum = sum + i;
+    
+// }
+// console.log("sum=", sum);
+// console.log("loop has ended")
+
+// while loop 
+
+// let i = 1;
+
+// while( i<= 5 ){
+//     console.log (" farhar tyagi");
+//     i++;
+// }l
+
+// do while loop 
+//  let i = 1;
+//  do {
+//     console.log("i=", i);
+//     i++;
+
+//  }while(i<=5);
+
+// for -of loop // this use for array or string .
+
+// let str = "mrs.farhat tyagi";
+// let size = 0;
+
+// for(let val of str){ //iterator -> 
+//     console.log("val=", val);
+//     size++;
+// }
+ 
+// console.log("sting size= ", size);
+
+// for-in loop 
+
+// let student = {         // this print the key if we wnat print the vakue of key use of console line.
+//     name: "farhat tyagi",
+//     age: 28,
+//     cgpa: 80,
+//     ispass: true,
+     
+// };
+
+// for(let key in student){
+//     console.log("key =",key, "value", student[key]);
+// }
+
+
+// for(let num = 0; num <= 100; num++){
+//     if(num%2 !== 0){
+//         console.log("num =", num);
+//     }
+// }
+////// partice game quation
+
+// let gameNum = 28;
+
+// let userNum = prompt("guess the game number:");
+
+// //console.log(userNmu);
+// while(userNum !== gameNum){
+
+// }
+// console.log("Congratualtion. guessed the right number :");
+
+// let gameNum = 28;
+// let userNum = prompt("guess the num:");
+// while(userNum != gameNum){
+//     userNum = prompt("wrong, guess again:")
+// };
+//  console.log("congratualtion,:");
+
+///string ......
+
+// let string = "i created a game with the help by while loop";
+
+// console.log(string[22]);
+
+//// template literals .....
+
+// let sentence = `This is template literals  ${1 + 2 + 3 + 4 + 5 + 6}`;
+// console.log(sentence);
+// console.log("farhar \t tyagi");
+
+// let obj = {
+//     item:  "pen",
+//     cost: "20",
+// };
+// let output =`the cost of ${obj.item} is  ${obj.cost} repees`;
+// console.log(output);
+
+/// strinhg  method ...
+
+// let str = "farhat engineer";
+// str = str.toUpperCase();
+// console.log(str);
+// let str = "farhat tyagi";
+// console.log(str.slice(1, 6));
+
+// let str1 =" bunny";
+// let str2 = "kookie";
+
+// //  result =   str1.concat(str2); 
+//  result = " farhat tyagi" + str1 + str2;
+//  console.log(result);
+
+// let str = "javascriptt";
+// console.log(str.charAt(1));
+
+//// let's pratice question...
+
+// let FullName = prompt("Enter your Full Name Without Space");
+// let userName = "@" + FullName + FullName.length;
+// console.log(userName);
+
