@@ -328,7 +328,52 @@
 
 //// let's pratice question...
 
- let FullName = prompt("Enter your Full Name Without Space");
- let userName = "@" + FullName + FullName.length;
-console.log(userName);
+//  let FullName = prompt("Enter your Full Name Without Space");
+//  let userName = "@" + FullName + FullName.length;
+// console.log(userName);
+
+/// Array ....
+
+// let marks = [79 ,84 , 78, 98, 89, ];
+// console.log(marks);  
+// let heros = [" farhat", "falak", "hamza", "zaid", "sama", "nasir" ];
+// console.log(heros);
+
+///let heros = [" farhat", "falak", "hamza", "zaid", "sama", "nasir" ];
+// for(let i = 0; i< heros.length; i++);{
+// console.log(heros[i ]);
+
+v
+//for(let hero of heros){
+   // console.log(hero);
+
+//    let cities = ["bangkure", "puna", "canada"," gurgaon", "kashmir"];
+//    for(let city of cities){
+//     console.log(city.toUpperCase());
+//    }
+
+// let marks = [85, 97, 44, 37, 76 ,60];
+// let sum = 0;
+// for(let val of marks){
+// sum += val;
+// }
+// let avg = sum / marks.length;
+// console.log(`Any marks of the class = ${avg}`);
+// let items = [350 , 758, 885, 758, 385, 7484, 967];
+
+// let i = 0;
+// for (let val of items){
+//     //tconsole.log(`value at index ${i} ${val}`);
+//     // i++;
+
+//     let offer = val / 10;
+//     items[i] = items[i] - offer;
+//     console.log(`value after offer = ${items[i]}`);
+//     i++;
+// } 
+
+
+///function .......
+
+
 
